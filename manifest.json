@@ -3,9 +3,9 @@
 
   "name": "Your Sticky Header Is Obnoxious, Breaks My Page Down Button, And Wastes 20% Of My Viewport",
   "description": "This extension automatically unpins any DIV elements that are pinned to the top of the browser window.",
-  "version": "0.1",
+  "version": "0.2",
   "content_scripts": [ {
-    "js": [ "jquery.min.js", "main.js" ],
+    "js": [ "debounce.min.js", "main.js" ],
     "matches": [ "http://*/*", "https://*/*"]
   }]
 }
